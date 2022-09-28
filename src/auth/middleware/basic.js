@@ -11,7 +11,7 @@ module.exports = async (req, res, next) => {
 
 
   try {
-    let basic = req.headers.authorization(' ')[1];
+    let basic = req.headers.authorization.split(' ').pop();
     let [username, password] = base64.decode(basic).split(':');
     req.user = await users.authenticateBasic(username, password);
     next();
