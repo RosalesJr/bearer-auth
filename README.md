@@ -2,6 +2,10 @@
 
 ## Author: Luis Rosales
 
+## Credit
+
+Robert Ball helped on this project and worked with Taylor Main
+
 ## Problem Domain
 
 A bearer auth server inteded to practice server modularization, basic auth, use of middleware, routes, CRUD, writing tests and overall best practices.
@@ -37,3 +41,4 @@ A bearer auth server inteded to practice server modularization, basic auth, use 
 ### UML
 
 ![Lab 7 UML](./img/bearer-auth.png)
+
